@@ -26,6 +26,9 @@ def get_weather_data(city):
         response.raise_for_status()
         
         data = response.json()
+
+
+#this is some change that I want to be in this proj
         
         # Extract relevant weather information
         weather_info = {
